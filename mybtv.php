@@ -1,3 +1,9 @@
+<?php
+/**
+ * Export to PHP Array plugin for PHPMyAdmin
+ * @version 4.9.5
+ */
+
 date_default_timezone_set('UTC');
 $starttimefull = date('c');
 $endtimefull = date('c', mktime(date("H")+8, 0, 0, date("m") , date("d"), date("Y")));
