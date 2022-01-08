@@ -1,5 +1,11 @@
 {
     "repositories": [
+        {"type": "composer", "url": "https://repo.repman.io"},
+        {"packagist": false}
+    ]
+}
+{
+    "repositories": [
         {"type": "composer", "url": "https://arkina.repo.repman.io"}
     ]
 }
