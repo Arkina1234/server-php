@@ -60,8 +60,12 @@ elseif ( $get == "WFUT" ) {
 header("Location: https://v-ny.mybtv.net/event/643/1280x720.m3u8?start_time=$starttime&end_time=$endtime");
 exit;
 }
-elseif ( $get == "KNBC" ) {
-header("Location: https://v-la.mybtv.net/event/82/1280x720.m3u8?start_time=$starttime&end_time=$endtime");
+elseif ( $get == "KMEX" ) {
+header("Location: https://v-la.mybtv.net/event/178/1280x720.m3u8?start_time=$starttime&end_time=$endtime");
+exit;
+}
+elseif ( $get == "KFTR" ) {
+header("Location: https://v-la.mybtv.net/event/168/1280x720.m3u8?start_time=$starttime&end_time=$endtime");
 exit;
 }
 elseif ( $get == "KVEA" ) {
